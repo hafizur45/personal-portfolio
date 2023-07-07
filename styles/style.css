@@ -105,6 +105,20 @@ font-size: 18px;
 font-weight: 400;
 
 text-align: center;
+justify-content:start;
 
 
+}
+
+main{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
 }
