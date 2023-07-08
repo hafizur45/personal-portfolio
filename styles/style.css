@@ -91,9 +91,13 @@ padding: 18px 36px;
 }
 /* main section */
 .about{
-    background: #FFF8F3;
-    padding: 130px;
+    
     margin: 130px 230px 130px 230px;
+    padding: 130px;
+      /* margin: 0 auto;  */
+   
+    background: #FFF8F3;
+   
     
 }
 .section-description{
@@ -105,13 +109,13 @@ font-size: 18px;
 font-weight: 400;
 
 text-align: center;
-justify-content:start;
+
 
 
 }
 
 main{
-    max-width: 1240px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -121,4 +125,18 @@ main{
 }
 .about-info{
     text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 150px;
+    color:#757575;
+    text-align: center;
+    
+    font-size: 18px;
+    
+    font-weight: 400;
+    
+    text-align: center;
+}
+.skill-container{
+    display: flex;
 }
